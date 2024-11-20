@@ -1,4 +1,4 @@
-# Simulating EDR with LimaCharlie Victim-Attacker VMs and Sliver-C2 Framework-
+# Simulating EDR with LimaCharlie Victim-Attacker VMs and Sliver-C2 Framework
 
 I have Worked on a home lab using blog posts and simulated Endpoint Detection and
 Response(EDR) system which consists of a Windows 10 victim virtual(VM) machine,
