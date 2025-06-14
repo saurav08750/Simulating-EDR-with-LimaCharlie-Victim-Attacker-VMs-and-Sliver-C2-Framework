@@ -23,20 +23,12 @@ Used [Sliver C2](https://github.com/BishopFox/sliver) to simulate attacks like:
 - File exfiltration
 - Persistence mechanisms
 - Privilege escalation
+- Unauthorized access to the lsass.exe memory for credential harvesting
 
 ## Detection & Response
 
 - Created Sigma rules to detect suspicious behavior
 - Fine-tuned rules to reduce false positives
 - Leveraged LimaCharlie’s rule engine to trigger detections based on logs
-
-## Project Layout
-
-- `victim-vm/` – Sensor install steps, attack logs
-- `attacker-vm/` – Sliver setup and attack commands
-- `detection-rules/` – Custom Sigma rules
-- `logs/` – Captured logs from simulated attacks
-
-
 
 
