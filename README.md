@@ -21,7 +21,7 @@ Used [Sliver C2](https://github.com/BishopFox/sliver) to simulate attacks like:
 - File exfiltration
 - Persistence mechanisms
 - Privilege escalation
-- Unauthorized access to the lsass.exe memory for credential harvesting
+-LSASS memory access for credential harvesting
 
 ## Detection & Response
 
